@@ -1,0 +1,51 @@
+.title, .trouble-title, .plants-title {
+  font-family: 'Dancing Script', cursive;
+  color: rgba(245, 212, 26, 0.952);
+}
+
+.trouble-title, .plants-title {
+  color: rgba(75, 64, 5, 0.516);
+  font-size: 56px;
+
+  /* @media screen (max-width: 992px) { 
+    font-size: 30px;
+
+  } */
+}
+
+.trouble-info {
+  font-size: 16px;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 40px;
+  background-color: rgba(42, 138, 4, 0.97);
+  opacity: 100%;
+}
+
+.nav-link {
+  color: rgba(245, 212, 26, 0.952);
+}
+
+.nav-link:hover {
+  color: rgba(245, 210, 16, 0.516);
+}
+
+/* .vertical-center { */
+body {
+  background: url("../img/plant-at-home.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* min-height: 75%;  /* Fallback for browsers do NOT support vh unit */
+  /* height: 75vh; */
+  /* width: 100%; */
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit
+  min-height: 100vh; These two lines are counted as one :-)       
+  /* display: flex; */
+  /* align-items: center; */
+}
+.container.help, .container.plants, .container.footer {
+  background-color: white;
+  opacity: 90%;
+  border-radius: 15px;
+}
